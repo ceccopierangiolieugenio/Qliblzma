@@ -139,8 +139,7 @@ liblzma/ \
 common/
 
 HEADERS += \
-        qliblzma_global.h \
-        liblzma/config.h \
+liblzma/config.h \
 liblzma/api/lzma.h \
 liblzma/api/lzma/base.h \
 liblzma/api/lzma/bcj.h \
