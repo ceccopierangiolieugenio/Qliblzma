@@ -2,7 +2,7 @@
 
 ### Intro
 
-This project is capable to expose the liblzma api inside any QT peoject.
+This project is capable to expose the liblzma api inside any QT project.
 
 ### License
 
