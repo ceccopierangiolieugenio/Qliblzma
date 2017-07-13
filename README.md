@@ -1,4 +1,4 @@
-# QtLiblzma
+# Qliblzma
 
 ### Intro
 
