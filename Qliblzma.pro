@@ -6,9 +6,9 @@
 #
 # License:  This library is public domain
 #           Please refer to the license folder for more details
-#           This library includes code from 
+#           This library includes code from
 #                           XZ Utils <https://tukaani.org/xz/>.
-#        
+#
 #-------------------------------------------------
 
 QT       -= core gui
@@ -27,25 +27,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 win32 {}
 win64 {}
-win32-g++ {
-    QMAKE_CFLAGS += \
-        -std=gnu99 \
-        -DHAVE_CONFIG_H \
-        -D_POSIX \
-        -O2
-}
-win32-msvc2013 {
-    QMAKE_CFLAGS += \
-        -std=gnu99 \
-        -DHAVE_CONFIG_H \
-        -D_POSIX
-}
-win32-msvc2015 {
-    QMAKE_CFLAGS += \
-        -std=gnu99 \
-        -DHAVE_CONFIG_H \
-        -D_POSIX
-}
+win32-g++ {}
+win32-msvc2013 {}
+win32-msvc2015 {}
+
+QMAKE_CFLAGS += \
+    -std=gnu99 \
+    -DHAVE_CONFIG_H \
+    -D_POSIX \
+    -O2
 
 # You can also make your code fail to compile if you use deprecated APIs.
 # In order to do so, uncomment the following line.
